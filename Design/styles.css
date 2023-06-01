@@ -270,7 +270,7 @@ footer{
 
 }
 
-@media screen and (max-width:850px) {    
+@media screen and (max-width:899px) {    
     nav{
         text-align: center;
         padding: 30px 0 0 0;
@@ -311,22 +311,42 @@ footer{
     }
     /*Cartas*/
 
+    .cartas{
+        padding-bottom: 500px;
+        padding-top: 500px;
+    }
+
     .cartas .carta{
         width: auto;
         height: 1150px;
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 570px){
 
     .cartas{
-         width: 90%;
-         
+        padding-bottom: 600px;
+        padding-top: 600px;
     }
-    
+
+    .cartas .carta{
+        width: auto;
+        height: 1150px;
+    }
 
 }
-    
+
+@media screen and (max-width: 400px){
+    .cartas{
+        padding-bottom: 1000px;
+        padding-top: 1000px;
+    }
+
+    .cartas .carta{
+        width: auto;
+        height: 1150px;
+    }
+}
 
 
 
