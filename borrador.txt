@@ -1,0 +1,42 @@
+
+    <head id="head">
+      <h1>Valeria y Laureano</h1>
+    </head>
+    <div id="intro">
+      <h2>Bienvenida, Valeria. Esta es una cartita para para vos</h2>
+      <p>Hecha por: El mismisimo</p>
+      <p>
+        Esta es una pagina para plasmar nuestro amor.
+      </p>
+      
+    </div>
+
+    <div id="history">
+      <h2>Nuestra historia</h2>
+      
+      <p>Nos conocimos en 2020. Fue muy loco saber que al principio entre vos y yo CERO onda</p>
+      <p>y no fue hasta 2021 que empezamos a "tener" un poco mas de contacto y relacion pero ni siquiera eramos amigos,</p>
+      <p>ademas eras muy timida, casi ni hablabas y jamas de los jamases nos quedabamos solos en Ds.</p>
+      <p>En 2021 viniste de viaje a conocer a los chicos y lamentablemente no nos pudimos conocer por todo el quilombo de la pandemia</p>      
+      <p>despues de eso empezamos a charlar un poco más inclusive fuera de Discord.</p>
+      <p>Tambien ya nos quedabamos solos hablando de nuestras cosas</p>
+      <p>y soprendentemente tuvimos mucha quimica.</p>
+      <p>Desde ahi fue todo una bola de nieve.</p>
+      <p>Nos quedabamos hablando hasta las 3 de la mañana de nuestras boludeces y no nos aburriamos nunca.</p>
+      <p>quiero decirte que esas noches juntos me encantaban y hablar con vos era lo mejor que tenia</p>
+      <p>ademas ahora me siento mal porque vos en las mañanas siguientes tenias que laburar jsjs perdon :(</p>
+    </div>
+
+    <div id="firstmonths">
+      <h2>Primeros meses</h2>
+      <p>
+        La etapa rosa, donde nos enamoramos y los dos sacamos nuestro lado chuni
+        y dulzon
+      </p>
+      <p>En mi opinion, de las etapas mas lindas que pasamos juntos.</p>
+      <p>
+        Ambos nos arrojamos al vacio de la incertidumbre a pesar de no saber que
+        peligros nos traeria una relacion a distancia
+      </p>
+      <p>Estabamos con mucho miedo, sin embargo decidimos continuar</p>
+    </div>
