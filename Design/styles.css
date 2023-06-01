@@ -158,7 +158,7 @@ header .textos-header{
 
 .cartas{
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
     padding-bottom: 50px;    
 }
 
@@ -184,9 +184,6 @@ header .textos-header{
 
 .cartas .carta > .contenido-texto-carta{
     width: 60%;    
-}
-.cartas .carta > .contenido-texto-carta h3{    
-    padding-top: 10px;   
 }
 
 .cartas .carta > .contenido-texto-carta p{
@@ -319,5 +316,17 @@ footer{
         height: 1150px;
     }
 }
+
+@media screen and (max-width: 550px){
+
+    .cartas{
+         width: 90%;
+         
+    }
+    
+
+}
+    
+
 
 
