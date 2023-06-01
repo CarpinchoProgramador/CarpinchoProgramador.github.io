@@ -84,7 +84,7 @@ header .textos-header{
 }
 
 .imagen-historia{    
-    width: 45%;    
+    width: 44%;    
 }
 
 .historia .contenido-textos{
@@ -165,7 +165,7 @@ header .textos-header{
 .cartas .carta{
     background: rgba(106, 28, 96, 0.573);    
     display: flex;
-    width: 46%;
+    width: 40%;
     height: 420px;
     align-items: center;
     justify-content: space-evenly;
@@ -249,27 +249,72 @@ footer{
 
     .imagen-nosotros{
         width: 90%;
-    }
-
-    .imagen-nosotros{
-        width: 44%;
-    }
+    }    
 
     .cartas{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .cartas .carta{
         width: 90%;
-        height: 700px;
-    }
+        padding-top: 700px;
+        padding-bottom: 800px;
+        padding-left: 10%;
+        height: 900px;
+    } 
+    .cartas .carta{
 
+    }
     .cartas .carta:first-child{
         margin-bottom: 30px;
     }
 
+}
+
+@media screen and (max-width:500px) {    
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+    /* Historia */
+
+    .imagen-historia{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .historia .contenido-textos{
+        width: 95%;
+    }
+
+    /*Galeria*/
+
+    .imagen-nosotros{
+        width: 95%;
+    }
+
+    /*Playlist*/
+    .playlist1{
+        width: 90%;
+    }
+    /*Cartas*/
+
+    .cartas .carta{
+        width: auto;
+        height: 1150px;
+    }
 }
 
 
