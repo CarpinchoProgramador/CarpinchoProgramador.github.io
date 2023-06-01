@@ -166,7 +166,7 @@ header .textos-header{
     background: rgba(106, 28, 96, 0.573);    
     display: flex;
     width: 40%;
-    height: 420px;
+    height: auto;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -185,10 +185,13 @@ header .textos-header{
 .cartas .carta > .contenido-texto-carta{
     width: 60%;    
 }
+.cartas .carta > .contenido-texto-carta h3{    
+    padding-top: 10px;   
+}
 
 .cartas .carta > .contenido-texto-carta p{
     font-weight: 300; 
-    padding-top: 5px;   
+    padding-top: 10px;   
 }
 
 /*Footer*/
