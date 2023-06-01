@@ -146,10 +146,12 @@ header .textos-header{
 
 .playlist-contenedor{
    text-align: center;
+   width: auto;
    background: 0 0 6;
 }
 
 .carpincho{
+    justify-content: space-evenly;
     width: 25%;
     shape-outside: -o-linear-gradient(#414141);
 }
@@ -159,7 +161,8 @@ header .textos-header{
 .cartas{
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 50px;    
+    padding-bottom: 50px; 
+    width: auto;   
 }
 
 .cartas .carta{
@@ -309,6 +312,10 @@ footer{
     .playlist1{
         width: 90%;
     }
+
+    .playlist-contenedor{
+        width: auto;
+    }
     /*Cartas*/
 
     .cartas{
@@ -336,10 +343,10 @@ footer{
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 414px){
     .cartas{
-        padding-bottom: 1000px;
-        padding-top: 1000px;
+        padding-top: 700px;
+        padding-bottom: 800px;        
     }
 
     .cartas .carta{
